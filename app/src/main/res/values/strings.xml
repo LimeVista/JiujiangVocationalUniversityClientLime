@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">九江职业大学</string>
+
+    <string name="ok">确定</string>
+    <string name="ok_nice">好的</string>
+    <string name="cancel">取消</string>
+    <string name="cancel_nice">惨...</string>
+    <string name="grade_network_disconnection_title">网络异常</string>
+    <string name="grade_network_disconnection">网络信号被外星人屏蔽了？请检查下网络,或者重新试试？</string>
+    <string name="login_exception_title">登录超时或者异常</string>
+    <string name="login_exception">亲，登录超时或者异常了，请重新登录试试！</string>
+    <string name="grade_more">成绩单</string>
+    <string name="select_grade">查询成绩</string>
+
+    <string name="article_loading_title">玩命加载中...</string>
+    <string name="article_loading_subtitle">李振宇元年</string>
+    <string name="login_access_denied">(⊙o⊙)密码或学号有误哦！</string>
+    <string name="login_unknown">未知错误！如果您在4~6、10~12月份查询，由于学校系统原因，可能无法进行查询！</string>
+    <string name="login_access_than">╮(╯▽╰)╭，你的账号超过使用权限！联系下学校！</string>
+    <string name="grades_is_null">当前学年并没有你的成绩单？您穿越了么？试试其它选项？</string>
+    <string name="update_ver">版本更新</string>
+    <string name="about_author">关于作者</string>
+    <string name="about_school">关于九江职业大学</string>
+    <string name="jjvu">九江职业大学</string>
+
+    <string name="notice_title">通知公告</string>
+    <string name="notice_id">910</string>
+    <string name="school_news_title">校园新闻</string>
+    <string name="school_news_id">911</string>
+    <string name="dynamic_msg_title">院系动态</string>
+    <string name="dynamic_msg_id">912</string>
+
+    <string name="hint_user">学号</string>
+    <string name="hint_pwd">密码</string>
+    <string name="about_grade">九江职业大学·李振宇技术</string>
+    <string name="select_school_year">选择要查询的学期学年</string>
+    <string name="user_name_null">学号太短或为空</string>
+    <string name="pwd_is_null">密码不能为空</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">设置</string>
+    <string name="about_school_more">美美哒的九江职业大学！</string>
+    <string name="about_author_more">出门经常忘记嗑药的李振宇。&#x000A;LimeVista@163.com</string>
+    <string name="theme_green">走心绿</string>
+    <string name="theme_blue">轻奢蓝</string>
+    <string name="theme_pink">甜心粉</string>
+    <string name="article_screenshot_success">长截图成功！</string>
+    <string name="article_screenshot_failed">长截图失败！</string>
+    <string name="version_latest">当前版本已是最新版本.</string>
+    <string name="update_ok">立即更新</string>
+    <string name="update_cancel">下次..</string>
+</resources>

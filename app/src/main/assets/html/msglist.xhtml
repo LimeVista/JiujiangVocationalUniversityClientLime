@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no,email=no,date=no,address=no" />
+    <title><%title%></title>
+    <link href="file:///android_asset/html/css/aui.2.0.css" rel="stylesheet" type="text/css" />
+    <link href="file:///android_asset/html/css/loading.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="aui-content aui-margin-b-15">
+    <ul class="aui-list aui-list-in">
+        <!--<li class="aui-list-header">带有其他元素的列表</li>-->
+    </ul>
+    <div class="sk-wave" id="lime-loading" style="position: fixed;bottom:1em;">
+        <div class="sk-rect sk-rect1"></div>
+        <div class="sk-rect sk-rect2"></div>
+        <div class="sk-rect sk-rect3"></div>
+        <div class="sk-rect sk-rect4"></div>
+        <div class="sk-rect sk-rect5"></div>
+    </div>
+    <!--
+    <div id="add-list" style="position: fixed;bottom:1em;right:2em;background-color:#eee;">
+Lime
+    </div>-->
+</div>
+<script type="text/javascript" src="file:///android_asset/html/script/jquery.min.js"></script>
+<script type="text/javascript" src="file:///android_asset/html/script/api.js"></script>
+<script type="text/javascript" src="file:///android_asset/html/script/aui-scroll.js" ></script>
+<script type="text/javascript">
+	function addList(data){
+	    for(var i=0;i<data.length;i++)
+			$('ul').append('<li class="aui-list-item"  onClick="Lime.openArticle(\''+data[i].address+'\')">'+
+				'<div class="aui-list-item-inner aui-list-item-arrow">'+
+				'<div class="aui-list-item-title80 aui-ellipsis-1">'+data[i].title+'</div>'+
+				'<div class="aui-list-item-right">'+data[i].date+'</div></div></li>'
+		);
+	};
+	$(function(){
+		var init = <%data%>;
+        addList(init);
+	});
+    /*用来记录滚动*/
+    var scroll = new auiScroll({
+        listen:true,
+        distance:100 //判断到达底部的距离，isToBottom为true
+    },function(ret){
+        if(ret.isToBottom){
+            /*document.getElementById("add-list").textContent = "已到达底部";*/
+            var div = document.getElementById('lime-loading');
+            div.style.display="inline-block";
+            var list=Lime.addMsgList();
+            var obj = JSON.parse(list);
+            addList(obj);
+            div.style.display="none";
+        }/*else{
+            document.getElementById("add-list").textContent = "滚动高度："+ret.scrollTop;
+        }*/
+    });
+</script>
+</body>
+</html>

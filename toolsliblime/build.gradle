@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+//不加下面两行会挂掉
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="toolsliblime.toolsliblime">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/toolsliblime/build/libs/toolsliblime.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,29 @@
+
+------------------------------------------------
+JiujiangVocationalUniversityClientLime:
+    Copyright (C) 2016 Lime
+	Gun General Public License
+	Version 3, 29 June 2007
+------------------------------------------------
+ AUI CSS:
+    Copyright (C) 2016 LiuLangNan
+ 	MIT License
+------------------------------------------------
+ jQuery:
+ 	Copyright jQuery Foundation and
+ 	other contributors, https://jquery.org/
+------------------------------------------------
+ SystemBarTint
+    Copyright (C) 2013 readyState Software Ltd
+    Licensed under the Apache License,
+    Version 2.0
+------------------------------------------------
+ LoadingView部分代码借鉴于GuoHuanWen
+    See https://github.com/guohuanwen
+------------------------------------------------
+
+  本软件并非商业软件，隶属开源免费软件。
+  遵循开源协议GPL v3.
+  图片资源源于网络，侵权请告知(侵删)
+    2016.08.15
+-------------------------------------------------

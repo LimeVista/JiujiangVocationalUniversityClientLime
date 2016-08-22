@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/guide_1"/>
+
+    <ImageView
+        android:id="@+id/guide_logo"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:background="@drawable/circle_textview_style"
+        android:padding="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/ic_jjvu_logo_big"/>
+
+    <TextView
+        android:id="@+id/guide_logo_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="九江职业大学"
+        android:textSize="30sp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/White"
+        android:layout_below="@+id/guide_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/White"
+        android:text="博学多能   厚德笃行"
+        android:textSize="18sp"
+        android:layout_below="@+id/guide_logo_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#AFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:text="»»»»»»»»»»»»»»"/>
+
+</RelativeLayout>

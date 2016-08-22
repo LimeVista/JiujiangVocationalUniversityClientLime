@@ -1,0 +1,64 @@
+<resources>
+
+    <style name="GreenTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="GreenTheme.AboutStyle" parent="GreenTheme.NoActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorControlNormal">@color/White</item>
+    </style>
+    <style name="GreenTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorControlNormal">@color/White</item>
+    </style>
+
+    <style name="GreenTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/colorAccent</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <!--甜心粉主题-->
+    <style name="PinkTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="PinkTheme.AboutStyle" parent="PinkTheme.NoActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorControlNormal">@color/White</item>
+    </style>
+    <style name="PinkTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorControlNormal">@color/White</item>
+    </style>
+
+    <style name="PinkTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/pink_accent</item>
+        <item name="android:colorPrimary">@color/pink_primary</item>
+    </style>
+
+    <!--甜心粉主题-->
+    <style name="BlueTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="BlueTheme.AboutStyle" parent="BlueTheme.NoActionBar" >
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorControlNormal">@color/White</item>
+    </style>
+    <style name="BlueTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:colorControlNormal">@color/White</item>
+    </style>
+
+    <style name="BlueTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:colorAccent">@color/blue_accent</item>
+        <item name="android:colorPrimary">@color/blue_Primary</item>
+    </style>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/about_layout"
+    android:background="@color/Pale"
+    tools:context="pers.lime.jjvu.AboutActivity">
+    <!--android:fitsSystemWindows="true"-->
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/GreenTheme.AboutStyle"
+        app:elevation="0dp">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingTop="24dp"
+            android:background="@mipmap/about_back"
+            app:popupTheme="@style/GreenTheme.PopupOverlay" />
+    </android.support.design.widget.AppBarLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewAbout"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="146dp"
+        android:layout_centerHorizontal="true"
+        android:padding="4dp"
+        android:background="@drawable/circle_textview_style"
+        android:src="@mipmap/ic_jjvu_logo_big" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--这行本来加在Button中的，无奈V21版本才支持矢量图...所以暂时取消-->
+    <!--android:background="@drawable/button_color_style"-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_ver"
+        android:id="@+id/update_button"
+        android:layout_marginTop="24dp"
+        style="@style/ButtonStyleBase"
+        android:textAlignment="textStart"
+        android:paddingLeft="24dp"
+        android:layout_below="@id/imageViewAbout"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_school_btn"
+        android:layout_marginTop="1dp"
+        style="@style/ButtonStyleBase"
+        android:textAlignment="textStart"
+        android:paddingLeft="24dp"
+        android:text="@string/about_school"
+        android:layout_below="@+id/update_button"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/about_author_btn"
+        style="@style/ButtonStyleBase"
+        android:layout_marginTop="1dp"
+        android:textAlignment="textStart"
+        android:paddingLeft="24dp"
+        android:text="@string/about_author"
+        android:layout_below="@+id/about_school_btn"/>
+
+    <TextView
+        android:id="@+id/about_ver_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="当前版本：0.1.1100"
+        android:textAlignment="center"
+        android:layout_marginBottom="4dp"
+        android:layout_above="@+id/lime_version_info"/>
+    <TextView
+        android:id="@+id/lime_version_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="九江职业大学·2014软件技术1班·李振宇"
+        android:layout_marginBottom="2dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondaryText"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>
